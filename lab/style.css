@@ -147,7 +147,7 @@ footer .by{
 .example-grid__item::before{
     position:absolute;
     top:50%;
-    right:50%;
+    left:50%;
     transform:translate(-50%,-50%);
     font-size:4em;
     color:rgba(0,0,0,.75)
@@ -155,7 +155,7 @@ footer .by{
 .example-image::before{
     position:absolute;
     top:50%;
-    right:50%;
+    left:50%;
     transform:translate(-50%,-50%);
     font-size:7em;
     color:rgba(0,0,0,.75)
@@ -191,7 +191,7 @@ footer .by{
 @media (min-width:992px){
     .template-blog{
         width:72%;
-        padding-left:1.5rem
+        padding-right:1.5rem
     }
     .example-grid__item{
         width:33.333333%
